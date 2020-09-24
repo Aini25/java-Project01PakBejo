@@ -1,4 +1,4 @@
-# java-Project01PakBejo
+# java-ProjectPakBejo 
 Pak Bejo ingin memasang keramik untuk lantai rumahnya yang berukuran luas total 100 m . Sesampainya di toko keramik, Pak Bejo kebingungan dikarenakan ada 3 pilihan keramik yang menurutnya bagus, yaitu: 
 
  Keramik A: 
