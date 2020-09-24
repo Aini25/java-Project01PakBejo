@@ -13,14 +13,14 @@ public class PilihKeramik {
     int luasLantai = 1000000;
     int ukuran;
     int isiKotak;
-    float harga;
+    int harga;
     
      void hitungKeramik() {
         float jmlKeramik;
         float jmlKotak;
         float totalBiaya;
-        jmlKeramik = this.luasLantai / this.ukuran;
-        jmlKotak = jmlKeramik / this.isiKotak;
+        jmlKeramik = this.luasLantai / this.ukuran + 1;
+        jmlKotak = jmlKeramik / this.isiKotak + 1;
         totalBiaya = this.harga * jmlKotak;
         System.out.println("Jumlah kotak keramik yang dibutuhkan : " + Math.ceil(jmlKeramik));
         System.out.println("Jumlah box keramik yang dibuthkan : " + Math.ceil(jmlKotak));
