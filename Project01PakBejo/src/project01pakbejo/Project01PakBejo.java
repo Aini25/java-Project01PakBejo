@@ -20,18 +20,21 @@ public class Project01PakBejo {
         A.ukuran = 900;
         A.isiKotak = 10;
         A.harga = 54000;
+        System.out.println("Keramik A");
         A.hitungKeramik();
         
         PilihKeramik B = new PilihKeramik();
         B.ukuran = 1600;
         B.isiKotak = 5;
         B.harga = 65000;
+        System.out.println("Keramik B");
         B.hitungKeramik();
         
         PilihKeramik C = new PilihKeramik();
         C.ukuran = 1200;
         C.isiKotak = 8;
         C.harga = 60000;
+        System.out.println("Keramik C");
         C.hitungKeramik();
     }
     
