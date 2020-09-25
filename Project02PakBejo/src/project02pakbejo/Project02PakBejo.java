@@ -17,18 +17,21 @@ public class Project02PakBejo {
     public static void main(String[] args) {
                 
         PilihKeramik2 A2 = new PilihKeramik2(900, 10, 54000);
+        System.out.println("Keramik A");
         System.out.println("Jumlah keramik yang dibutuhkan adalah " + A2.jumlahKeramik() + " buah");
         System.out.println("Jumlah box keramik yang dibutuhkan adalah " + A2.jumlahBox() + " box");
         System.out.println("Total biaya untuk pembelian keramik yang dibutuhkan adalah " + A2.jumlahBiaya() + " rupiah");
         System.out.println(" ");
         
         PilihKeramik2 B2 = new PilihKeramik2(1600, 5, 65000);
+        System.out.println("Keramik B");
         System.out.println("Jumlah keramik yang dibutuhkan adalah " + B2.jumlahKeramik() + " buah");
         System.out.println("Jumlah box keramik yang dibutuhkan adalah " + B2.jumlahBox() + " box");
         System.out.println("Total biaya untuk pembelian keramik yang dibutuhkan adalah " + B2.jumlahBiaya() + " rupiah");
         System.out.println(" ");
         
         PilihKeramik2 C2 = new PilihKeramik2(1200, 8, 60000);
+        System.out.println("Keramik C");
         System.out.println("Jumlah keramik yang dibutuhkan adalah " + C2.jumlahKeramik() + " buah");
         System.out.println("Jumlah box keramik yang dibutuhkan adalah " + C2.jumlahBox() + " box");
         System.out.println("Total biaya untuk pembelian keramik yang dibutuhkan adalah " + C2.jumlahBiaya() + " rupiah");
